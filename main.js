@@ -45,6 +45,14 @@ const grades = [100, 80, 110, 75, 83, 64];
 const positiveNumbers = [5, 2, 13, 17, 4, 102, 3000];
 
 
+    // for (let count = 0; count < poisitveNumbers.length; count++) {
+    //     if (positiveNumbers[count] % 2 === 0) {
+    //         console.log(positiveNumbers[count]);
+    //     }
+    // }
+
+//OR
+
     // positiveNumbers.shift();
     // positiveNumbers.splice(1,2);
     // console.log(positiveNumbers);
@@ -54,6 +62,14 @@ const positiveNumbers = [5, 2, 13, 17, 4, 102, 3000];
 // Console.log out the even numbers in the following array, INCLUDING the negative ones. There should be four total printings.
 const mixedSignNumbers = [3, 15, 14, -2, -3, -8, -103, 4];
 
+
+    // for(let count = 0; count < mixedSignNumbers.length; count++){
+    //     if(mixedSignNumbers[count] % 2 === 0){
+    //         console.log(mixedSignNumbers[count]);
+    //     }
+    // }
+
+//OR
 
     // mixedSignNumbers.shift();
     // mixedSignNumbers.shift();
@@ -70,7 +86,7 @@ const symmetricalCapitals = ['A', 'H', 'I', 'M', 'O', 'T', 'U', 'V', 'W', 'X', '
 
     // symmetricalCapitals.shift();
     // symmetricalCapitals.shift();
-    // symmetricalCapitals.pop(8);
+    // symmetricalCapitals.pop();
     // for(let count = 0; count <= 7; count++) {
     //   console.log(symmetricalCapitals[count]);
     // }
@@ -121,9 +137,9 @@ const fibonacciNumbers = [1, 1, 2, 3, 5, 8, 13];
 // Loop through the `students` array from Challenge 1, starting at index 3 and ending at index 10 (INCLUSIVE), logging out each value individually.
 
 
-    // for(count = 2; count <= 9; count++) {
-    //   console.log(students[count]);
-    // }
+    for(count = 3; count <= 10; count++) {
+      console.log(students[count]);
+    }
 
 
 
